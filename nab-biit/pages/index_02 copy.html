@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NAB BIIT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="../dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <link href="../dist/css/datepicker.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><image src="../nab_logo_abv.svg" style="height: 35px; margin-top: -7px;"></a>
+
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"  style="color: white">
+                        <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>NAB</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Today</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>NAB</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>Business Banking</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"  style="color: white">
+                        <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Daily Goal</strong>
+                                        <span class="pull-right text-muted">20% Achieved</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Weekly Goal</strong>
+                                        <span class="pull-right text-muted">40% Achieved</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Achieved</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Fortnightly Goal</strong>
+                                        <span class="pull-right text-muted">50% Achieved</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                            <span class="sr-only">50% Achieved (info)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Monthly Goal</strong>
+                                        <span class="pull-right text-muted">80% Achieved</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Achieved (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"  style="color: white">
+                        <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-bullhorn fa-fw"></i> Latest Offer
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"  style="color: white">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+        </nav>
+
+        <div id="page-wrapper" style="margin: 0 !important;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Promotion Management</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <div class="row">
+
+                <!-- /.col-lg-8 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-gift fa-fw" style="font-size: 1.25em;"></i> Create Promotion
+                        </div>
+                        <!-- /.panel-heading -->
+
+                        <div class="panel-body">
+
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Promo Message</label>
+                                            <input class="form-control">
+                                            <p class="help-block">250 character limit.</p>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Date / Time</label>
+
+                                            <input class="form-control" placeholder="From"><br>
+                                            <input class="form-control" placeholder="To">
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Attach Image</label>
+                                            <input type="file">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Targets</label>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Male Customers
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Female Customers
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">General
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                        <label>Age Group</label>
+
+                                        <select class="form-control">
+                                                <option>21-40</option>
+                                                <option>41-60</option>
+                                                <option>61-80</option>
+                                                <option>Other</option>
+                                        </select>
+                                        </div>
+                                        <br>
+
+                                        <div>
+                                        <label>Customer Limit</label>
+
+                                        <select class="form-control">
+                                                <option>1-10</option>
+                                                <option>11-20</option>
+                                                <option>21-30</option>
+                                                <option>31-40</option>
+                                                <option>41-50</option>
+                                                <option>Other</option>
+                                        </select>
+                                        </div>
+                                        <br>
+                                        <p>
+                                            <button type="submit" class="btn btn-info">Submit</button>
+                                        </p>
+
+                                    </form>
+
+                            <!-- /.row (nested) -->
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-th-list fa-fw" style="font-size: 1.25em;"></i> Promotion History
+                        </div>
+
+                        <!-- <div class="panel-body">
+                            <div class="alert alert-danger">
+                                Autumn offers. <a href="#" class="alert-link">Details</a>.
+                            </div>
+                            <div class="alert alert-danger">
+                                Upto 70% off on all women's accessories. <a href="#" class="alert-link">Details</a>.
+                            </div>
+                            <div class="alert alert-danger">
+                                50% discount for 50 lucky customers on any 50 items. <a href="#" class="alert-link">Details</a>.
+                            </div>
+                            <div class="alert alert-danger">
+                                End of season sale. <a href="#" class="alert-link">Details</a>.
+                            </div>
+                        </div> -->
+
+                      <div class="panel-body">
+                      <div class="dataTable_wrapper" style="overflow-x: hidden !important;">
+                          <div class="dataTables_wrapper form-inline dt-bootstrap no-footer" id="dataTables-example_wrapper">
+                            <div class="row">
+                              <div class="col-sm-6">
+                              <div id="dataTables-example_length" class="dataTables_length">
+                                <label>Show
+                                  <select class="form-control input-sm" aria-controls="dataTables-example" name="dataTables-example_length">
+                                  <option value="10">10</option>
+                                  <option value="25">25</option>
+                                  <option value="50">50</option>
+                                  <option value="100">100</option>
+                                </select> entries
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="dataTables_filter" id="dataTables-example_filter">
+                              <label>Search: <input aria-controls="dataTables-example" placeholder="" class="form-control input-sm" type="search">
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <table aria-describedby="dataTables-example_info" role="grid" class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example">
+                              <thead>
+                                  <tr role="row">
+                                    <th aria-label="Promotion: activate to sort column descending" aria-sort="ascending" style="width: 339px;" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting_asc">Description</th>
+                                    <th aria-label="Customers Interested: activate to sort column ascending" style="width: 255px;" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">Customers Interested</th>
+                                    <th aria-label="Customers Redeemed: activate to sort column ascending" style="width: 255px;" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">Customers Redeemed</th>
+                                    <th aria-label="Sales Generated: activate to sort column ascending" style="width: 255px;" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">Sales Generated ($)</th>
+                                    <!-- <th aria-label="CSS grade: activate to sort column ascending" style="width: 224px;" colspan="1" rowspan="1" aria-controls="dataTables-example" tabindex="0" class="sorting">CSS grade</th></tr> -->
+                              </thead>
+                              <tbody>
+                                <tr role="row" class="gradeA odd">
+                                  <td class="sorting_1">Promotion #10</td>
+                                  <td class="center">54</td>
+                                  <td class="center">16</td>
+                                  <td>500</td>
+                                </tr>
+                                <tr role="row" class="gradeA even">
+                                    <td class="sorting_1">Promotion #09</td>
+                                    <td class="center">23</td>
+                                    <td class="center">23</td>
+                                    <td>950</td>
+                                </tr>
+                                <tr role="row" class="gradeA odd">
+                                  <td class="sorting_1">Promotion #08</td>
+                                  <td class="center">54</td>
+                                  <td class="center">25</td>
+                                  <td>1,000.50</td>
+                                </tr>
+                                <tr role="row" class="gradeA even">
+                                    <td class="sorting_1">Promotion #07</td>
+                                    <td class="center">67</td>
+                                    <td class="center">55</td>
+                                    <td>3,458.45</td>
+                                </tr>
+                                <tr role="row" class="gradeA odd">
+                                  <td class="sorting_1">Promotion #06</td>
+                                  <td class="center">34</td>
+                                  <td class="center">10</td>
+                                  <td>250</td>
+                                </tr>
+                                <tr role="row" class="gradeA even">
+                                    <td class="sorting_1">Promotion #05</td>
+                                    <td class="center">89</td>
+                                    <td class="center">54</td>
+                                    <td>4,950.87</td>
+                                </tr>
+                                <tr role="row" class="gradeA odd">
+                                  <td class="sorting_1">Promotion #04</td>
+                                  <td class="center">45</td>
+                                  <td class="center">26</td>
+                                  <td>2,569.34</td>
+                                </tr>
+                                <tr role="row" class="gradeA even">
+                                    <td class="sorting_1">Promotion #03</td>
+                                    <td class="center">54</td>
+                                    <td class="center">16</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr role="row" class="gradeA odd">
+                                  <td class="sorting_1">Promotion #02</td>
+                                  <td class="center">145</td>
+                                  <td class="center">135</td>
+                                  <td>10,678.35</td>
+                                </tr>
+                                <tr role="row" class="gradeA even">
+                                    <td class="sorting_1">Promotion #01</td>
+                                    <td class="center">70</td>
+                                    <td class="center">59</td>
+                                    <td>5,098.64</td>
+                                </tr>
+
+                              </tbody>
+                          </table></div></div>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div aria-live="polite" role="status" id="dataTables-example_info" class="dataTables_info">Showing 1 to 10 of 57 entries</div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div id="dataTables-example_paginate" class="dataTables_paginate paging_simple_numbers">
+                                <ul class="pagination">
+                                  <li id="dataTables-example_previous" tabindex="0" aria-controls="dataTables-example" class="paginate_button previous disabled"><a href="#">Previous</a></li>
+                                  <li tabindex="0" aria-controls="dataTables-example" class="paginate_button active"><a href="#">1</a></li>
+                                  <li tabindex="0" aria-controls="dataTables-example" class="paginate_button "><a href="#">2</a></li>
+                                  <li tabindex="0" aria-controls="dataTables-example" class="paginate_button "><a href="#">3</a></li>
+                                  <li tabindex="0" aria-controls="dataTables-example" class="paginate_button "><a href="#">4</a></li>
+                                  <li tabindex="0" aria-controls="dataTables-example" class="paginate_button "><a href="#">5</a></li>
+                                  <li tabindex="0" aria-controls="dataTables-example" class="paginate_button "><a href="#">6</a></li>
+                                  <li id="dataTables-example_next" tabindex="0" aria-controls="dataTables-example" class="paginate_button next"><a href="#">Next</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                      </div>
+                      <!-- /.table-responsive -->
+                    </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap-datepicker.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+
+    <script src="../bower_components/raphael/raphael-min.js"></script>
+    <script src="../bower_components/morrisjs/morris.min.js"></script>
+
+    <script src="../js/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
