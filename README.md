@@ -1,4 +1,6 @@
 NAB Hackathon
 =============
 
-* Presentation mockup files
+* Presentation support files
+  * Functional Webpage mockups
+  * Slide process workflow diagram
